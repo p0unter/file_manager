@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Process {
     public static String currentCommand = "home";
-    public static String currentPath = "C:\\Users\\Winner\\Desktop\\JAVA\\file_manager\\out\\exe"; // Default Current Path
+    public static String currentPath = ""; // Default Current Path
     static Scanner scanner = new Scanner(System.in);
 
     public static String[][] commands = {
